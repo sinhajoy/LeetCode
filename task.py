@@ -1,8 +1,13 @@
 # getting input from the user and assigning it to user
+import json
+json_data='{"Gender": "Male", "HeightCm": 171, "WeightKg": 96 }'
+                                                                         
+python_obj=json.loads(json_data)
 
-cm = float(input("Enter height in cm: "))
+
+cm = python_obj['HeightCm']
 height=cm / 100.0; 
-weight = float(input("Enter weight in kg: "))
+weight = python_obj['WeightKg']
 
 
 bmi = weight/height 
@@ -28,4 +33,3 @@ elif ( bmi >= 35 and bmi < 39.9):
 elif ( bmi >=40):
    print("High risk")
 
-    
