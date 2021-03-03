@@ -15,7 +15,7 @@ bmi = weight/height
 
 
 
-print("Your BMI is: {0} and you are: ".format(bmi), end='')
+print("Your BMI is: {0} and you are in: ".format(bmi), end='')
 
 #conditions
 if ( bmi < 18.4):
