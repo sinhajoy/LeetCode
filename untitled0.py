@@ -9,10 +9,7 @@ import json
 
                                        
 json_data='{"Gender": "Male", "HeightCm": 171, "WeightKg": 96 }'
-                                                                         
-python_obj=json.loads(json_data)
-
-print(python_obj['HeightCm'])
+                                                                        
 
 
                                                                          
